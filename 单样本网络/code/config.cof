@@ -1,0 +1,18 @@
+#main function
+
+[Main]
+case_filename = "liver_case_data_reference.txt"
+control_filename = "liver_control_data.txt"
+test_sample_name = ["N4wkGK1","N8wkGK1","N12wkGK1","N16wkGK1","N20wkGK1"] 
+periods  = 5
+sample_for_every_periods = 5
+index_column_name = "GeneID"
+fdr = False
+n_clusters = 40
+droped_cluster_gene_count = 5
+var_percent = 0.6
+
+
+
+
+
